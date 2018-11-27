@@ -13,9 +13,9 @@ def input_to_index(user_input)
   return user_input.to_i - 1
 end
 
-def move(changeArray, index, value = "X")
+def move(take_array, indexN, choice = "X")
   
-  board[index] = value 
+  take_array[indexN] = choice 
   
 end
 
