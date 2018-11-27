@@ -13,7 +13,7 @@ def input_to_index(user_input)
   return user_input.to_i - 1
 end
 
-def move(changeBoard, index, value = "X")
+def move(changeArray, index, value = "X")
   
   board[index] = value 
   
