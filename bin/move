@@ -15,4 +15,3 @@ choice = input_to_index(input)
 
 update_board = move(board, choice)
 
-display_board(update_board)
