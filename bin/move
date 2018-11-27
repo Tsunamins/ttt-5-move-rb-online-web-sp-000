@@ -13,5 +13,5 @@ input = gets.strip
 
 choice = input_to_index(input)
 
-update_board = move(board, choice)
+move(board, choice)
 
