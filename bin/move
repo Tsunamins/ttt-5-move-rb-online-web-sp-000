@@ -13,4 +13,6 @@ input = gets.strip
 
 choice = input_to_index(input)
 
-move(board, choice, "X")
+update_board = move(board, choice, "X")
+
+display_board(update_board)
