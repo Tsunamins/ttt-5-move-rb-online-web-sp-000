@@ -19,3 +19,5 @@ def move(board, index, value = "X")
   
 end
 
+update_array = display_board()
+
